@@ -94,6 +94,19 @@ p {
   margin-bottom: 10px;
 }
 
+#snake, #my-cv {
+  width: 100px;
+  height: 100px;
+}
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+}
+#portfolio a {
+  margin: 10px;
+}
+
 li {
   margin-left: 24px;
 }
