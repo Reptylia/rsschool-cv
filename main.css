@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #00d848;
+}
+
+.content {
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-box {
+  width: 100%;
+  min-height: 60px;
+  background-color: #757575;
+}
+
+.aside-box {
+  width: 100%;
+  min-height: 100px;
+  background-color: #5f6b81;
+}
+
+.main-box {
+  width: 100%;
+  min-height: 100px;
+  background-color: #4b4a4b;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  background-color: #222222;
+}
+
+#avatar {
+  width: 150px;
+  border: 5px solid #56573c;
+  border-radius: 50%;
+}
+
+p, span {
+  margin: 10px;
+}
+
+h1, h5 {
+  color: white;
+}
+
+h2 {
+  border-top: 4px solid #3d3939;
+  color: black;
+}
+
+h3 {
+  color: #2fc955;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  border-bottom: 5px solid #2e2c2c;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  color: #d3cdcd;
+}
+
+#sertif {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-left: 24px;
+}
+
+nav ul li {
+  color: #c4a5a5;
+  font-size: 20px;
+}
+
+#codeds {
+  font-size: 10px;
+  background-color: #e0dfdf;
+}
+
+span {
+  color: #c5c1c1;
+  line-height: 25px;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 60px;
+  background-color: #757575;
+}
+
+.footer-content1 {
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.footer-content2 {
+  color: red;
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.footer-content3 {
+  padding-right: 20px;
+}
+
+#logo {
+  width: 80px;
+}
+
+@media (min-width: 310px) {
+  .content {
+    max-width: 300px;
+  }
+
+  .main-box {
+    min-width: 50%;
+  }
+}
+@media (min-width: 570px) {
+  .content {
+    max-width: 550px;
+  }
+
+  .flex-content {
+    flex-direction: row;
+  }
+
+  .footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 760px) {
+  .content {
+    max-width: 740px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
