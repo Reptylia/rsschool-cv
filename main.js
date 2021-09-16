@@ -5,3 +5,18 @@ console.log(score);
 console.log(score2);
 console.log(score3);
 
+let burger = document.querySelector(".burger-menu");
+let nav = document.querySelector(".nav");
+
+
+burger.onclick = function () {
+    if(nav.style.display == "block") {
+        nav.style.display = "none";
+    } else {
+        nav.style.display = "block";
+    } 
+    
+}
+
+
+
